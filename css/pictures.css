@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat&family=Noto+Serif&family=Silkscreen&family=Ubuntu&display=swap');
 
 body{
-    /* background-image: url(Portfoliobackground.png); */
     margin: 0;
     padding: 0;
 }
@@ -15,7 +14,6 @@ a{
 }
 
 .big_container{
-    /* background-image: url(Portfoliobackground.png); */
     display:flex;
     width: 100%;
     height: 100vh;
@@ -66,16 +64,8 @@ a{
 }
 
 .content{
-    /* filter:grayscale(100%); */
     width: 98%;
     margin: 0;
     
 }
 
-/* .logo_img{
-    width: 10vh;
-} */
-
-/* img:hover{
-    filter: none;
-} */
