@@ -14,7 +14,6 @@ a{
 
 
 .big_container{
-    /* background-image: url(Portfoliobackground.png); */
     display:flex;
     width: 100%;
     height: 100vh;
@@ -46,7 +45,6 @@ a{
     width: 60%;
     height: fit-content;
     background-color: transparent;
-    /* border: 10px solid black; */
     margin-top: 0px;
     display: flex;
     flex-direction: column;
