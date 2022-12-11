@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat&family=Noto+Serif&family=Silkscreen&family=Ubuntu&display=swap');
+
+body{
+    background-image: url(../pictures/Portfoliobackground.png);
+    /* background-position: right 0 top 0; */
+    background-repeat: no-repeat;
+    background-origin: 0 0;
+    background-size: 180vh;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: black;
+    font-size: 24px;
+    margin-left: 10px;
+    line-height: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.2s;
+}
+
+.menu_box{
+    position: fixed;
+    width: 15%;
+    height: 95vh;
+    background-color: transparent;
+    /* border: 10px solid black; */
+    margin-top: 3vh;
+}
+
+.logo_container{
+    height: 70%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+/* .logo{
+    filter: grayscale(100%);
+} */
+
+.brush{
+    position: absolute;
+    left: 80vh;
+    top: 30vh;
+    opacity: 0;
+}
+
+.brush:hover{
+    opacity: 1;
+}
+
+.cursor{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: black;
+    /* transition: 0.1s; */
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+/* r */
+
+/* .upper:hover ~ .cursor{
+    transform: scale(6);
+} */

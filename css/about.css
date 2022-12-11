@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat&family=Noto+Serif&family=Silkscreen&family=Ubuntu&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    font-size: 24px;
+    margin-left: 10px;
+    line-height: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.big_container{
+    /* background-image: url(Portfoliobackground.png); */
+    display:flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+} 
+
+.menu_box{
+    position: fixed;
+    width: 15%;
+    height: 95vh;
+    background-color: transparent;
+    /* border: 10px solid black; */
+    margin-top: 3vh;
+}
+
+.logo_container{
+    height: 70%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+
+
+.scrolling_box{
+    position: absolute;
+    right: 10px;
+    width: 60%;
+    height: fit-content;
+    background-color: transparent;
+    /* border: 10px solid black; */
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.bio{
+    height: fit-content;
+    width: 90%;
+    /* background-color: pink;
+    border: 3px solid black; */
+    margin: 10px;
+    padding: 0;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5vh;
+    margin-right: 10vh;
+    margin-top: 4
+    
+}
+
+p:hover{
+    color: palevioletred;
+    transform:scale(1.2);
+    transition: 0.1s;
+    
+}
+
+.image{
+    height: fit-content;
+    width: 80%;
+    /* background-color: pink;
+    border: 3px solid black; */
+    margin: 10px;
+    padding-right: 10%;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+}
